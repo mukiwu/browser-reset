@@ -1,0 +1,28 @@
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button,textarea, p, blockquote, th, td {
+  margin: 0;
+	padding: 0;
+}
+img {border: 0;}
+:focus {outline: 0;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+input, button, textarea,select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+code, kbd, samp, tt {font-size: 100%;}
+ 
+/*purpose To enable resizing for IE */
+/*branch For IE6-Win, IE7-Win */
+input, button, textarea, select {*font-size: 100%;}
+body {line-height: 180%;}
+ol, ul, li {list-style: none;}
+:link, :visited , ins {text-decoration: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+ 
+/*HTML5 tag*/
+section, article, aside, footer, header, nav, main {
+	display:block;
+}
+
