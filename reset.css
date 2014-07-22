@@ -23,6 +23,6 @@ blockquote:before, blockquote:after,q:before, q:after {content: '';content: none
  
 /*HTML5 tag*/
 section, article, aside, footer, header, nav, main {
-	display:block;
+	display: block;
 }
 
